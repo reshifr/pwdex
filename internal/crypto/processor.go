@@ -1,4 +1,4 @@
-package cryptodev
+package crypto
 
 type Processor interface {
 	Encrypt(plaintext []byte) (ciphertext []byte, err error)

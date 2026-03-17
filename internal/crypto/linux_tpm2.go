@@ -1,7 +1,6 @@
 //go:build linux
-// +build linux
 
-package cryptodev
+package crypto
 
 import (
 	"errors"
@@ -141,5 +140,4 @@ func NewLinuxTPM2() {
 	} else {
 		log.Println(readPublicRsp)
 	}
-
 }
